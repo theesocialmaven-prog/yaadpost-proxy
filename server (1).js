@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 3000;
-const COURIER_BASE = process.env.COURIER_BASE_URL || "https://yaadpost.com/rpc";
+const COURIER_BASE = process.env.COURIER_BASE_URL || "https://courier.shipavecorp.com/rpc";
 
 app.use(express.json());
 
